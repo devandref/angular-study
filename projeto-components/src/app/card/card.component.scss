@@ -22,6 +22,10 @@
     
 }
 
-::ng-deep .card-button-cancel {
-    background-color: yellow !important;
+:host ::ng-deep .mdc-slider__track--active_fill {
+    border-color:  yellowgreen !important;
+}
+
+.view-encapsulation {
+    background-color: greenyellow;
 }
